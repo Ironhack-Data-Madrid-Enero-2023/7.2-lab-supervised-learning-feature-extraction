@@ -1,0 +1,53 @@
+2023-02-28 16:10:10,058 [33788] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2023-02-28 16:10:10,058 [33788] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2023-02-28 16:10:10,058 [33788] INFO     root:247: [JupyterRequire] Initializing comms.
+2023-02-28 16:10:10,060 [33788] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2023-02-28 16:10:10,061 [33788] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2023-02-28 16:10:10,061 [33788] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2023-02-28 16:10:10,849 [33788] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2023-02-28 16:10:10,849 [33788] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2023-02-28 16:10:10,849 [33788] INFO     root:247: [JupyterRequire] Initializing comms.
+2023-02-28 16:10:10,851 [33788] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2023-02-28 16:10:10,851 [33788] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2023-02-28 16:10:10,852 [33788] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2023-02-28 16:16:45,345 [33788] INFO     numexpr.utils:148: [JupyterRequire] Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-02-28 16:16:45,345 [33788] INFO     numexpr.utils:160: [JupyterRequire] NumExpr defaulting to 8 threads.
+2023-02-28 16:25:18,248 [10892] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2023-02-28 16:25:18,248 [10892] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2023-02-28 16:25:18,249 [10892] INFO     root:247: [JupyterRequire] Initializing comms.
+2023-02-28 16:25:18,250 [10892] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2023-02-28 16:25:18,251 [10892] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2023-02-28 16:25:18,251 [10892] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2023-02-28 16:51:12,150 [28788] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2023-02-28 16:51:12,150 [28788] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2023-02-28 16:51:12,150 [28788] INFO     root:247: [JupyterRequire] Initializing comms.
+2023-02-28 16:51:12,151 [28788] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2023-02-28 16:51:12,152 [28788] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2023-02-28 16:51:12,152 [28788] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2023-02-28 17:41:37,331 [28788] WARNING  py.warnings:109: [JupyterRequire] C:\Users\axell\AppData\Local\Temp\ipykernel_28788\2291019187.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  google_missing_removed.drop(index = google_missing_removed['Last Updated'].sort_values().index[0], inplace = True)
+
+2023-02-28 17:41:37,698 [28788] WARNING  py.warnings:109: [JupyterRequire] C:\Users\axell\AppData\Local\Temp\ipykernel_28788\1540321181.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  google_missing_removed['Last Updated'] = pd.to_datetime(google_missing_removed['Last Updated'])
+
+2023-02-28 17:41:47,301 [28788] WARNING  py.warnings:109: [JupyterRequire] C:\Users\axell\AppData\Local\Temp\ipykernel_28788\1767851971.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  google_missing_removed['Price Numerical'] = google_missing_removed.Price.apply(lambda e: float(e.replace('$','')))
+
+2023-02-28 17:41:49,058 [28788] WARNING  py.warnings:109: [JupyterRequire] C:\Users\axell\AppData\Local\Temp\ipykernel_28788\2944174603.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  google_missing_removed['Price Numerical'] = pd.to_numeric(google_missing_removed['Price Numerical'])
+
