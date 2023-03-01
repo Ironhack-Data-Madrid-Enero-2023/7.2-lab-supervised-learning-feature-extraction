@@ -1,0 +1,37 @@
+2023-03-01 06:18:30,258 [22564] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2023-03-01 06:18:30,258 [22564] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2023-03-01 06:18:30,258 [22564] INFO     root:247: [JupyterRequire] Initializing comms.
+2023-03-01 06:18:30,260 [22564] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2023-03-01 06:18:30,261 [22564] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2023-03-01 06:18:30,262 [22564] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2023-03-01 06:18:31,066 [22564] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2023-03-01 06:18:31,076 [22564] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2023-03-01 06:18:31,077 [22564] INFO     root:247: [JupyterRequire] Initializing comms.
+2023-03-01 06:18:31,081 [22564] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2023-03-01 06:18:31,082 [22564] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2023-03-01 06:18:31,082 [22564] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2023-03-01 06:21:36,710 [22564] INFO     numexpr.utils:160: [JupyterRequire] NumExpr defaulting to 8 threads.
+2023-03-01 06:28:53,831 [22564] WARNING  py.warnings:109: [JupyterRequire] C:\Users\mocus\AppData\Local\Temp\ipykernel_22564\1540321181.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  google_missing_removed['Last Updated'] = pd.to_datetime(google_missing_removed['Last Updated'])
+
+2023-03-01 06:29:23,962 [22564] WARNING  py.warnings:109: [JupyterRequire] C:\Users\mocus\AppData\Local\Temp\ipykernel_22564\1795868711.py:1: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.
+  google_missing_removed.Price = google_missing_removed.Price.str.replace('$', '')
+
+2023-03-01 06:29:23,976 [22564] WARNING  py.warnings:109: [JupyterRequire] C:\Users\mocus\AppData\Local\Temp\ipykernel_22564\1795868711.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  google_missing_removed.Price = google_missing_removed.Price.str.replace('$', '')
+
+2023-03-01 06:29:38,997 [22564] WARNING  py.warnings:109: [JupyterRequire] C:\Users\mocus\AppData\Local\Temp\ipykernel_22564\792129615.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  google_missing_removed['Price Numerical'] = pd.to_numeric(google_missing_removed.Price)
+
